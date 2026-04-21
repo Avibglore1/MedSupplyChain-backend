@@ -6,7 +6,7 @@ const licenseSchema = new mongoose.Schema({
         ref: "DrugType",
         required: true
     },
-    manufactureId:{
+    manufacturerId:{
         type: mongoose.Schema.Types.ObjectId,
         ref: "Participant",
         required: true

@@ -17,12 +17,12 @@ const medicineUnitSchema = new mongoose.Schema(
             ref: "DrugType",
             required: true
         },
-        manufactureId: {
+        manufacturerId: {
             type: mongoose.Schema.Types.ObjectId,
             ref: "Participant",
             required: true
         },
-        cuurentOwner: {
+        currentOwner: {
             type: mongoose.Schema.Types.ObjectId,
             ref: "Participant",
             required: true,
